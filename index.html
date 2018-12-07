@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Документация JS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav id="navbar">
+  <header>JS Документация</header>
+  <ul> 
+    <a class="nav-link" href="#Introduction" rel="internal"><li>Введение</li></a>
+    <a class="nav-link" href="#What_you_should_already_know" rel="internal"><li>Что вам уже следует знать</li></a>
+    <a class="nav-link" href="#JavaScript_and_Java" rel="internal"><li>JavaScript и Java</li></a>
+    <a class="nav-link" href="#Hello_world" rel="internal"><li>Hello world</li></a>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Введение</header>
+    <article>  
+      	<p>JavaScript® (часто просто JS) — это легковесный, интерпретируемый или JIT-компилируемый, объектно-ориентированный язык с функциями первого класса. Наиболее широкое применение находит как язык сценариев веб-страниц, но также используется и в других программных продуктах, например, node.js или Apache CouchDB. JavaScript это прототипно-ориентированный, мультипарадигменный язык с динамической типизацией, который поддерживает объектно-ориентированный, императивный и декларативный (например, функциональное программирование) стили программирования. </p>
+
+		<p>Стандартом языка JavaScript является ECMAScript. По состоянию на 2012, все современные браузеры полностью поддерживают ECMAScript 5.1. Старые версии браузеров поддерживают по крайней мере - ECMAScript 3. 17 июня 2015 года состоялся выпуск шестой версии ECMAScript. Эта версия официально называется ECMAScript 2015, которую чаще всего называют ECMAScript 2015 или просто ES2015. С недавнего времени стандарты ECMAScript выпускаются ежегодно. Эта документация относится к последней версии черновика, которой является ECMAScript 2018.</p>
+    </section>
+  <section class="main-section" id="What_you_should_already_know">
+    <header>Что вам уже следует знать?</header>
+    <article>
+      <p>В данном руководстве предполагается, что вы имеете:</p>
+
+      <li>Общее понимание Internet и World Wide Web (WWW).</li>
+      <li>Хорошее знание HyperText Markup Language (HTML).</li>
+	  <li>Некоторый опыт программирования. Если вы являетесь новичком в программировании, то ознакомьтесь с руководствами, приведенными на странице по JavaScript.</li>
+      </artice>
+    </section>
+  <section class="main-section" id="JavaScript_and_Java">
+    <header>JavaScript и Java</header>
+    <article>
+    	<p>JavaScript и Java похожи в одних отношениях, но фундаментально отличны в других. Javascript напоминает Java, но не имеет статической типизации и строгой проверки типов, которыми обладает Java. JavaScript следует большей части синтаксиса Java в выражениях, соглашениях об именовании и основного потока управления конструкциями, поэтому он был переименован из LiveScript в JavaScript.</p>
+		<p>В отличие от системы скомпилированных классов Java, построенной на объявлениях, JavaScript поддерживает систему исполнения, основанную на небольшом числе типов данных, представляющих числовые, логические и строковые значения. JavaScript имеет объектную модель на базе прототипов вместо более общей модели на базе классов. Модель объектов на базе прототипов предоставляет динамическое наследование, т.е. то, что наследуется, может отличаться для отдельных объектов. JavaScript также поддерживает функции без каких-либо специальных декларативных требований. Функции могут быть свойствами объектов, выполняться как свободно-типизированные методы.</p>
+		<p>По сравнению с Java, JavaScript является языком с очень свободной формой. Вам не надо объявлять переменные, классы и методы. Вам не надо беспокоиться о том, являются ли методы публичными (public), приватными (private) или защищенными (protected), а также вам не надо реализовывать интерфейсы. Переменные, параметры и возвращаемые функциями типы не являются явно типизированными.</p>
+    </article>
+  </section>
+  <section class="main-section" id="Hello_world">
+    <header>Hello world</header>
+    <article> 
+		Откройте Web Console или Scratchpad и создайте вашу первую "Hello world" программу на JavaScript:
+		<code>
+			function greetMe(yourName) {
+  			alert("Hello " + yourName);
+			}
+			greetMe("World");
+		</code>
+
+		В следующих главах данное руководство введет вас в синтаксис и языковые возможности JavaScript, чтобы вы могли создавать более комплексные приложения.
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Ссылки</header>
+    <article>
+      <li>Все данные взяты с <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a>
+    </article>
+   </section>
+</main>
+</body>
+</html>
